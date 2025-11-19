@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Ca11" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.Ca11" parent="Base.Theme.Ca11" />
+</resources>
