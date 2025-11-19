@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         e3=findViewById(R.id.e3)
         bt=findViewById(R.id.bt1)
         bt.setOnClickListener {
-            var t= e1.text.toString().toInt()+e1.text.toString().toInt()+e1.text.toString().toInt()
+            var t= e1.text.toString().toInt()+e2.text.toString().toInt()+e3.text.toString().toInt()
             Toast.makeText(this,"Cgpa is "+t, Toast.LENGTH_SHORT).show()
         }
 
